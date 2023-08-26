@@ -5,9 +5,9 @@
   "author": "Brenno Rodrigues",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "npx nest build",
+    "build": "nest build",
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
-    "start": "npx nest start",
+    "start": "nest start",
     "start:dev": "concurrently 'nest start --watch' 'nest start --watch payments-worker'",
     "start:debug": "concurrently 'nest start --debug --watch' 'nest start --debug --watch payments-worker'",
     "start:prod": "node dist/apps/consistent-bets/main",
