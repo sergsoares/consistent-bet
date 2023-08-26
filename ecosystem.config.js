@@ -1,6 +1,6 @@
 module.exports = [
   {
-    script: 'npm start:prod',
+    script: 'npm run start:prod',
     name: 'consistent-bets'
   }
     //exec_mode: 'cluster',
