@@ -2,7 +2,8 @@ import { FactoryProvider, Logger } from '@nestjs/common';
 import { PostgresJsDatabase, drizzle } from 'drizzle-orm/postgres-js';
 import { DefaultLogger, LogWriter } from 'drizzle-orm';
 import postgres from 'postgres';
-import { Enviroment } from '@consistent-bets/config';
+//import { Enviroment } from '@consistent-bets/config';
+import { Enviroment } from '../../config/src';
 
 export const DB = Symbol('DB_SERVICE');
 export type DbType = PostgresJsDatabase<Record<string, never>>;
